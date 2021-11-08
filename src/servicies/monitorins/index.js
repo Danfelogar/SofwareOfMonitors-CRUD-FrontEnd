@@ -24,7 +24,7 @@ export const monitoringsServicies = () =>{
     const updateMonitoring = (id,matter,assignedMonitor,date,classroom) =>{
         return axios({
             method: 'PATCH',
-            url : `/monitors/${id}`,
+            url : `/monitorings/${id}`,
             data:{
                 matter,
                 assignedMonitor,

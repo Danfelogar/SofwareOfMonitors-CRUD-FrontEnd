@@ -24,7 +24,8 @@ export const  useModalAddMonitoring = () =>{
 
     useEffect(() => {
         reset( form )
-    }, [form, reset]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [form]);
 
     const isFormForCreate= () =>{
         return !form.id

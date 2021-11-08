@@ -1,70 +1,32 @@
-# Getting Started with Create React App
+# Como usar softwaremonitors-CRUD
+# 1 paso
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+debe de tener los siguietes requicitos como para el correcto funcionamiento de la app:
+*tener un editor de codigo fuente
+*el puerto "http://localhost:8080" libre para que pueda correr el apache
+*el puerto "http://localhost:3001" libre para que pueda correr el backend en local
+*el puerto "http://localhost:3000" libre para que pueda correr el front en local
+*tener al alcance el los archivos "db@002dmonitoring@002dsoftware"(base de datos),"sofwareofmonitors-crud-api-backend"(backend),"sofwareofmonitors-crud-front-end"(frontend)
 
-## Available Scripts
+# 2 paso debe de tener instalado un software del tipo "xampp" o parecidos para poder trabajar con la base de datos
 
-In the project directory, you can run:
+para esto es necesiari que inicie que en la carpeta de origen donde tenga instalado xampp que en mi caso es "C:\Users\USER\Downloads\xampp-db-mysql\mysql\data" es necesario que deposite aqui la carpeta de nombre "db@002dmonitoring@002dsoftware"
 
-### `npm start`
+# 3 paso entrar en xampp y activar el servicio de apache seguido del de mysql
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# 4 paso abrir el phpmyadmin en " http://localhost/phpmyadmin/" para administrar mejor la base de datos
+# 5 abrir dos ventanas del editor de texto donde colocara las carpetas de "sofwareofmonitors-crud-api-backend" y "sofwareofmonitors-crud-front-end" respectivamente para ejecutar la terminal
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+# 6 para correr en la terminal el backend hacerlo con el comando "npm run dev" y para el frontend con el comando "npm start / npm run start"
+# 7 una vez desplegado todo usted sera capaz de navegar en el frontend sin problemas consumiendo el backend
 
-### `npm test`
+# 8 documentacion del proyecto para tener encuenta a la hora de realizar peticiones
+https://documenter.getpostman.com/view/16922264/UVC3jnXA
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# 9 a la hora de realizar peticiones tener encuenta la documentacion :3
 
-### `npm run build`
+# 11 link de video explicativo <3
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+[![Alt text](https://img.youtube.com/vi/_2hqYrZj3e4/0.jpg)](https://www.youtube.com/watch?v=_2hqYrZj3e4)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

@@ -23,7 +23,7 @@ const  actCreateMonitoring = ({matter,assignedMonitor,date,classroom}) => async(
 
         dispatch({
             type: types.addNewMonitoring,
-            payload: {id: data.userID,matter,assignedMonitor,date,classroom}
+            payload: {id: data.id,matter,assignedMonitor,date,classroom}
         });
         dispatch({
             type: types.uiCloseModal

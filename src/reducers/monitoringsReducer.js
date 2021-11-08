@@ -5,6 +5,7 @@ import { types } from "../types/types";
 const initialState = {
     data:[],
     monitoringSelected:{
+        id:'',
         matter:'',
         assignedMonitor:'',
         date:'',
@@ -30,7 +31,7 @@ export const monitoringsReducer = (state = initialState, action) => {
                 ]
             }
 
-        case types.setActiveMonitor:
+        case types.setActiveMonitoring:
             return{
                 ...state,
                 monitoringSelected: action.payload
